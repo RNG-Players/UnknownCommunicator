@@ -1,30 +1,33 @@
-#flex{
+#flex
+{
 color:blue;
 text-align:center;
 background-color:darkgoldenrod;
 }
-.XD{
-color:green;  
-}
-#lewo{
+#logging
+{
    text-align:left; 
    float:left;
    background-color:darkgray;
+   width: 200px;
+   height: 600px;
 }
-#prawo{
-    
-    float:right;
+#grafic
+{    
+    float:left;
     background-color:brown;
-    padding:40px;
+    height: 600px;
+    width: 700px;
 }
-#srodek{
-text-align: center;
-background-color: cornflowerblue;
-text-align: center;
-
-}
-#dol{
-    display:both;
-    text-align:center;
+#footer
+{
+    clear: both;
     background-color: darkkhaki;
+}
+#logo
+{
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
 }
