@@ -1,4 +1,30 @@
-#papież{
+#flex{
 color:blue;
 text-align:center;
+background-color:darkgoldenrod;
+}
+.XD{
+color:green;  
+}
+#lewo{
+   text-align:left; 
+   float:left;
+   background-color:darkgray;
+}
+#prawo{
+    
+    float:right;
+    background-color:brown;
+}
+#srodek{
+text-align: center;
+float:inherit;
+background-color: cornflowerblue;
+text-align: center;
+
+}
+#dol{
+    display:both;
+    text-align:center;
+    background-color: darkkhaki;
 }
