@@ -1,8 +1,19 @@
+body
+{
+    background-color: rgb(92, 78, 78);
+}
 #container
 {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+}
+#logo
+{
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
 }
 #logging
 {
@@ -11,6 +22,21 @@
    background-color:darkgray;
    width: 200px;
    height: 600px;
+}
+.LogInButton
+{
+    background-color: black;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.LogInButton:hover
+{
+    background-color: rgb(44, 43, 43);
 }
 #grafic
 {    
@@ -24,10 +50,4 @@
     clear: both;
     background-color: darkkhaki;
 }
-#logo
-{
-    text-align: center;
-    padding: 15px;
-    background-color: black;
-    color: white;
-}
+
