@@ -27,12 +27,14 @@ body
 {
     background-color: black;
     height: 50px;
+    width: 180px;
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
     color: white;
-    text-align: center;
     font-size: 22px;
+    align-items: center;
+    border: none;
 }
 .LogInButton:hover
 {
