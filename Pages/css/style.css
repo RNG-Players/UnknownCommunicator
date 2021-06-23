@@ -44,7 +44,7 @@ body
     align-items: center;
     border: none;
 }
-.LogInButton:hover
+.button:hover
 {
     background-color: rgb(44, 43, 43);
 }
