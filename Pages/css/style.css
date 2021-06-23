@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(92, 78, 78);
+    background-color: rgb(36, 36, 36);
 }
 #container
 {
@@ -8,22 +8,30 @@ body
     margin-left: auto;
     margin-right: auto;
 }
-#logo
+#head
 {
     text-align: center;
     padding: 15px;
     background-color: black;
     color: white;
 }
+#logo
+{
+    text-align: center;
+    font-size: 72px;
+    float: left;
+    
+}
 #logging
 {
    text-align:left; 
    float:left;
-   background-color:darkgray;
+   background-color:rgb(78, 78, 78);
    width: 200px;
    height: 600px;
+   color: white;
 }
-.LogInButton
+.button
 {
     background-color: black;
     height: 50px;
@@ -52,4 +60,11 @@ body
     clear: both;
     background-color: darkkhaki;
 }
-
+a:link
+{
+    color: white;
+}
+a:visited
+{
+    color: white;
+}
