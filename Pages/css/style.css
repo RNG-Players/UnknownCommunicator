@@ -47,6 +47,7 @@ body
 .button:hover
 {
     background-color: rgb(44, 43, 43);
+    cursor: pointer;
 }
 #grafic
 {    
@@ -57,14 +58,15 @@ body
 }
 #footer
 {
-    clear: both;
     background-color: darkkhaki;
 }
 a:link
 {
     color: white;
+    text-decoration: none;
 }
 a:visited
 {
     color: white;
+    text-decoration: none;
 }
