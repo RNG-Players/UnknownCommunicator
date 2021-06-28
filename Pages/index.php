@@ -13,21 +13,26 @@
     <div id="container">
         <div id="head">
             <a id="logo" href="index.html">
-                <div>
-                    ?
-                </div>
+                ?
             </a>
             <h1>Unknown Communicator</h1>
         </div>
         <div id="logging">
-            login/e-mail<br/>
-            <input/>
-            hasło
-            <br/>
-            <input/>  
-            <button type="submit" class="button">
-                Zaloguj się
-            </button>         
+            <form action="login.php" method="POST">
+                login/e-mail
+                <br/>
+                <input type="text" name="login"/>
+                hasło
+                <br/>
+                <input type="password" name="password"/>  
+                <button type="submit" class="button">
+                    Zaloguj się
+                </button> 
+            </form>  
+            </br>
+            <a id="registry_ref" href="registry.php">
+                Nie masz hasła? Zarejestruj się
+            </a>      
         </div>
         <div id="grafic">
             grafika + linki do stron : (o stronie, rejestracji)
