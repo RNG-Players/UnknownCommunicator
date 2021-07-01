@@ -12,7 +12,7 @@
 <body>
     <div id="container">
         <div id="head">
-            <a id="logo" href="index.html">
+            <a id="logo" href="index.php">
                 ?
             </a>
             <h1>Unknown Communicator</h1>

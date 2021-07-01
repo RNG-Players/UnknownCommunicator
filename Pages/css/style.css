@@ -27,9 +27,27 @@ body
    text-align:left; 
    float:left;
    background-color:rgb(78, 78, 78);
-   width: 180px;
-   height: 580px;
-   padding: 10px;
+   width: 200px;
+   height: 600px;
+   padding: 15px;
+}
+#registry
+{
+    background-color:rgb(78, 78, 78);
+    width: 200px;
+    height: 500px;
+    padding: 15px;
+}
+#grafic
+{    
+    float:left;
+    background-color:brown;
+    height: 630px;
+    width: 770px;
+}
+#footer
+{
+    background-color: darkkhaki;
 }
 .button
 {
@@ -47,17 +65,7 @@ body
     background-color: rgb(44, 43, 43);
     cursor: pointer;
 }
-#grafic
-{    
-    float:left;
-    background-color:brown;
-    height: 600px;
-    width: 800px;
-}
-#footer
-{
-    background-color: darkkhaki;
-}
+
 a:link
 {
     color: white;
